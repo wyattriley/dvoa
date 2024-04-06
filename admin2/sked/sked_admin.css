@@ -1,0 +1,97 @@
+html {
+	height: 100.2%;
+}
+body,	html {
+	margin:0;
+	padding:0;
+	background:#f0f0f0;
+	font-family: verdana,helvetica,"luxi sans",sans-serif;
+}
+#wrap {
+	background:#ffffff;
+	margin:0 auto;
+	width:880px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+#header {
+	text-align:center;
+	padding-top:8px;
+	background-image:url(logo152x90.png);
+	background-repeat:no-repeat;
+	height:92px;
+	line-height:92px;
+	border-bottom: 1px solid rgb(209,80,0);
+}
+#header h1 {
+	font-size:18px;
+	color:#333;
+	margin:2px;
+}
+#userbar {
+	border-bottom: 1px solid rgb(209,80,0);
+	text-align:center;
+	height:20px;
+	line-height:20px;
+	background:#f0f0f0;
+	font-size:11px;
+	color:#333;
+}
+#userbar a {
+	color:#333;
+}
+#userbar a:hover {
+	color:#c00;
+}
+#content {
+	padding:10px 10px 20px 10px;
+	text-align:left;
+	color: rgb(57,57,107);
+	font-size:12px;
+}
+#content h3 {
+	text-align:center;
+	font-size:14px;
+	color:#666;
+}
+#content a {
+	font-size:11px;
+	color:#333;
+}
+#content p {
+	font-size:11px;
+	color:#333;
+}
+#content a:hover {
+	color:#c00;
+}
+#content ul {
+	text-align:center;
+	padding-bottom:16px;
+}
+#content li {
+	list-style-type:none;
+	display:inline;
+}
+#content table {
+	border-collapse:collapse;
+	border:1px solid #ccc;
+}
+#content th {
+	font-size:12px;
+	border:1px solid #ccc;
+}
+#content td {
+	font-size:11px;
+	border:1px solid #ccc;
+}
+
+input.cal {
+	border-style : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	background: #31457b;
+	color:#ffffff;
+}

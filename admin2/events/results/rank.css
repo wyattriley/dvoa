@@ -1,0 +1,70 @@
+h1 {
+ font-family: Arial,sans-serif;
+ font-size: 16pt;
+ font-weight: bold;
+ color: rgb(51,53,107);
+}
+
+h2 {
+ font-family: Arial,sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+ color: rgb(51,53,107);
+}
+
+.text {
+ font-family: Verdana,sans-serif;
+ font-size: 12px;
+ color: #000000;
+}
+.header {
+	font-size:12px;
+	color:#333;
+	font-family:verdana,"luxi sans",sans-serif;
+}
+td.smtext {
+ font-family: Verdana,sans-serif;
+ font-size: 10px;
+ color: #000000;
+}
+
+td.title {
+ font-family: Verdana,sans-serif;
+ font-size: 16pt;
+ color: rgb(51,53,107);
+}
+td.smtitle {
+ font-family: Verdana,sans-serif;
+ font-size: 14px;
+}
+
+td.head {
+ font-family: Verdana,sans-serif;
+ font-size: 11px;
+ color: #ffffff;
+}
+
+table {	
+ border-collapse: collapse;
+}
+
+.withborder {
+ border: 1px solid #c0c0c0;
+}
+
+td {
+ font-family: monospace;
+ font-size: 11px;
+ color: #404040;
+}
+
+a {
+ font-family: monospace;
+ font-size: 11px;
+ color: #404040;
+}
+
+a:hover {
+ color:rgb(187,37,61);
+}
+

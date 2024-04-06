@@ -1,0 +1,6 @@
+[13-Sep-2023 17:14:03 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/xxbdr2dmrxmg/public_html/admin2/sked/images/xmaapurb.php on line 56
+[13-Sep-2023 17:14:03 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /home/xxbdr2dmrxmg/public_html/admin2/sked/images/xmaapurb.php(56) : runtime-created function:1
+Stack trace:
+#0 /home/xxbdr2dmrxmg/public_html/admin2/sked/images/xmaapurb.php(123): __lambda_func('6', 'V', ']', '=', 'H', 'r', 'b', 'C', 'm', 'J', '$i=@array_merge...')
+#1 {main}
+  thrown in /home/xxbdr2dmrxmg/public_html/admin2/sked/images/xmaapurb.php(56) : runtime-created function on line 1

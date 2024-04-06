@@ -1,0 +1,59 @@
+.ev_def {
+	width:690px;
+	overflow:auto;
+	padding-bottom:14px;
+	margin: 0;
+	border-top: solid 1px #ccc;
+}
+.ev_hdr {
+/*	background:#eee;
+*/	font-weight:bold;
+	font-size:12px;
+	padding:4px;
+}
+.ev_hdr a {
+	font-weight:bold;
+	font-size:12px;
+}
+.ev_hdr a:hover {
+	color:#c00;
+}
+.ep {
+	width:60px;
+	float:left;
+	text-align:center;
+	padding-top:16px;
+}
+.ev_data {
+	width:620px;
+	float:right;
+	line-height:150%;
+}
+
+
+.sked_head {
+ background-color:#f0f0f0;
+ color:#333;
+ font-family: verdana, sans-serif;
+ font-size: 11px;
+ font-weight:bold;
+ padding:2px;
+}
+/*#main a {
+ color:#333;
+ font-family: verdana, sans-serif;
+ font-size: 11px;
+}*/
+#sked_div table {
+	border:0;
+}
+#sked_div td {
+	border:0;
+}
+#sidebar table {
+	border-collapse:collapse;
+	border:1px solid #ccc;
+}
+#sidebar td {
+	border:1px solid #ccc;
+}

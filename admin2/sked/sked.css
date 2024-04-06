@@ -1,0 +1,260 @@
+body{
+	background:#3d3632;
+	height:100.2%;
+	font-family:verdana, "luxi sans", sans-serif;
+	font-size:11px;
+}
+#wrapper {
+	background:#543f38;
+	margin:0 auto;
+	width:880px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#header {
+	height:111px;
+	background-image:url(images/cabin.jpg);
+	background-repeat:no-repeat;
+	border-bottom: 1px solid rgb(209,80,0);
+}
+#header h1 {
+	font-family:verdana,sans-serif;
+	font-size:16pt;
+	color:#fff; /* #607b96; */
+	text-align:left;
+	margin:0;
+	padding:10px 0 0 50px;
+}
+#header h2 {
+	font-size:12pt;
+	color:#e6eef1;
+	text-align:left;
+	margin:0;
+	padding:44px 0 0 70px;
+}
+ 
+#userbar {
+	text-align:left;
+	padding: 2px 0 2px 8px;
+	background:#5d6662;
+}
+#content {
+	padding:0 0 20px 0;
+	text-align:left;
+	color: rgb(57,57,107);
+	font-size:12px;
+	color:#eee;
+}
+#content h3 {
+	margin:0;
+}
+#content p {
+	color:#eee;
+	text-align:center;
+}
+#content a {
+	color:#eee;
+}
+#content a:hover {
+	color:#a9ad9c;
+}
+#content table {
+	border-collapse:collapse;
+	border:1px solid #ccc;
+}
+#content th {
+	border:1px solid #ccc;
+	font-size:12px;
+	background:#3d3632;
+}
+#content td {
+	border:1px solid #ccc;
+	font-size:12px;
+	color:#eee;
+}
+#content ul {
+	text-align:center;
+	padding-bottom:16px;
+}
+#content li {
+	list-style-type:none;
+	display:inline;
+}
+.center_wrapper {
+	margin: 0 auto;
+	padding:24px 0 24px 0;
+	text-align:center;
+	clear:both;
+}
+#footer {
+	background:#5d6662;
+	color:#cfbab7;
+	font-size:10px;
+	padding:2px 0 2px 2px;
+}
+.topic_title {
+background-image:url(images/topic_header.png);
+background-repeat:no-repeat;
+width:880px;
+height:24px;
+line-height:24px;
+text-align:left;
+padding-left:4px;
+}
+.topic_title h3 {
+	color:#4e403d;
+}
+
+/* highlight the select input */
+input[type=text]:hover {  
+background-color:#ffe4b5;
+}
+input[type=select]:hover {  
+background-color:#ffe4b5; /*#ecf2e6;*/
+}
+
+.err {
+	color:#c00;
+	font-weight:bold;
+}
+
+
+/* following styles for popup cal data (ajax) */
+#popup {
+	background:#313439; /*#ffa500;*/
+	font-family:verdana,sans-serif;
+	font-size:12px;
+	color:rgb(255,255,255);
+/*
+	opacity:.80;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+*/
+}
+#popup table {
+ border-collapse:collapse;
+ border: 1px solid #ccc;
+}	
+#popup th {
+	background:#6a7686;
+	font-family:verdana,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#eee;
+}	
+#popup a {
+	color:#fff;
+}
+#popup a:hover {
+	color:#c00;
+}
+		
+/*
+img.transOFF {
+	opacity:1.00;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1.0;
+}
+img.transON  {
+	opacity:.50;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+}
+*/
+
+
+.popup .items {
+	display:none;
+}
+.popup:hover > .items {
+	padding:4px;
+	display: block;	
+	border: 1px solid #4a4f5c;
+	background-color: #eccda5;
+	position: absolute;
+	z-index: 1;
+	text-align:left;
+}
+.popup .items a {
+	color: #4a4f5c;
+}
+.popup .items li {
+	text-align:left;
+}
+.popup .items a:hover {
+	color: #b5534f;
+}
+
+input.cal {
+	border-style : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	background: #4b3330;
+	color:#ffffff;
+}
+input.cal:hover {
+	border-style : none;
+	background: #4b3330;
+	color:#ffffff;
+}
+.frm_wrap {
+	width:880px;
+	background:343845;
+}
+.descr {
+	text-align:left;
+	font-style:italic;
+	padding: 8px 0 8px 8px;
+}
+.tables {
+	text-align:left;
+	padding: 8px 0 8px 50px;
+}
+.item {
+	overflow:auto;
+	width:100%;
+	border-bottom:1px solid #646875;
+	clear:both;
+	padding-top:2px;
+	padding-bottom:4px;
+	margin-bottom:4px;
+}
+.titles {  /* left column */
+	width:200px;
+	float:left;
+	text-align:right;
+	font-weight:bold;
+}
+.inner_wrap { /* this is a wrapper for the center and right columns */
+	width:672px;
+	float:right;
+}
+.inputs { /* center column */
+	width:200px;
+	float:left;
+}
+.exs {  /* right column (explanations) */
+	width:472px;
+	float:right;
+}
+
+.wrap2col {
+	padding:8px 20px 8px 20px;
+}
+.left2col {
+	width:170px;
+	float:left;
+	text-align:right;
+	font-weight:bold;
+}
+.right2col {
+	width:650px;
+	float:right;
+	text-align:left;
+}
+.centerp {
+	text-align:center;
+	border-bottom:1px solid #646875;
+	padding:10px 0 20px 0;
+}
