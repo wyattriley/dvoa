@@ -22,6 +22,8 @@ if ($_SESSION['err_code']) {
 	header("location:index.php");
 }
 
+header("location:index.php");
+
 //if we made it this far, then consider the input data valid...
 
 include_once("../../tools/dvoa_tools.inc.php");
