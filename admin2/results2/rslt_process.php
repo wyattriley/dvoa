@@ -343,7 +343,7 @@ function IsValidFileType($filename,$type)
 
 function abort_and_return_to_index()
 {
-	header("location:index.php");
+	header("location:rslt_import.php");
 	exit();
 }
 
