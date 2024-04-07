@@ -3,7 +3,7 @@ session_start();
 $_SESSION['err_code'] = 0;
 
 if (!isset($_POST['sked_id']))
-	abort_and_return_to_index();
+	abort_and_return_to_index($sked_id);
 else
 	$sked_id = intval($_POST['sked_id']);
 
@@ -19,7 +19,7 @@ else
 if ($_SESSION['err_code']) {
 	$_SESSION['sked_id'] = $sked_id;
 	$_SESSION['csvfilename'] = $_FILES['csvfile']['name'];
-	abort_and_return_to_index();
+	abort_and_return_to_index($sked_id);
 }
 
 
@@ -341,7 +341,7 @@ function IsValidFileType($filename,$type)
 	return $err_code;
 }
 
-function abort_and_return_to_index()
+function abort_and_return_to_index($sked_id)
 {
 	header("location:rslt_import.php?sked_id=" . $sked_id);
 	exit();
