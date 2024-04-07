@@ -3,7 +3,7 @@ session_start();
 $_SESSION['err_code'] = 0;
 
 if (!isset($_POST['sked_id']))
-	header("location:index.php");
+	abort_and_return_to_index();
 else
 	$sked_id = intval($_POST['sked_id']);
 
@@ -19,10 +19,9 @@ else
 if ($_SESSION['err_code']) {
 	$_SESSION['sked_id'] = $sked_id;
 	$_SESSION['csvfilename'] = $_FILES['csvfile']['name'];
-	header("location:index.php");
+	abort_and_return_to_index();
 }
 
-header("location:index.php");
 
 //if we made it this far, then consider the input data valid...
 
@@ -340,6 +339,12 @@ function IsValidFileType($filename,$type)
 			break;
 	}
 	return $err_code;
+}
+
+function abort_and_return_to_index()
+{
+	header("location:index.php");
+	exit();
 }
 
 function quote_all_array($values) { 
