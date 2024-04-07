@@ -113,7 +113,7 @@ $curr_year = date("Y");
 					if ($_SESSION['err_code'] & 0x02)
 						printf("<span class=\"err_code\">Please select a results file</span>");
 					if ($_SESSION['err_code'] & 0x10 || $_SESSION['err_code'] & 0x20)
-						printf("<span class=\"err_code\">Not a valid CSV results file</span>");
+						printf("<span class=\"err_code\">Previous input was not a valid CSV results file</span>");
 					?>
 					<br />Select the CSV results file to import. The results filename must be a .csv file. Please do not use spaces in the filename.
 				</div>
